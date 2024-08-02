@@ -4,7 +4,7 @@ from langdetect import detect
 import textblob
 import re
 
-api_key = 'AIzaSyCfjSufytYj2_9UZ7RWWer4pLvbxY3kXU8'
+api_key = 'Your_API_Key'
 
 
 def analyze_sentiment(comments):
