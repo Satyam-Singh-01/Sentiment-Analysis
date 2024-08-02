@@ -74,7 +74,7 @@ st.title("Sentiment Analysis")
 
 # Display accuracies of SVM and Random Forest models
 if st.checkbox("Show Model Accuracies"):
-    accuracy_svm, svm_report, accuracy_rf, rf_report = train_models('classified.csv')
+    accuracy_svm, svm_report, accuracy_rf, rf_report = train_models('Dataset/classified.csv')
     st.write(f"SVM Accuracy: {accuracy_svm}")
     st.write("SVM Classification Report:")
     st.text(svm_report)
